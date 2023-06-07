@@ -1,0 +1,42 @@
+.social-media-conteiner {
+  background-color: #fbb400;
+
+  @media (max-width: 768px) {
+    justify-content: center;
+  }
+  .icon-holder.facebook {
+    i {
+      padding: 10px 13px;
+      color: #fff;
+    }
+  }
+  .icon-holder.instagram {
+    i {
+      padding: 12px;
+      color: #fff;
+    }
+  }
+  .icon-holder.tiktok {
+    padding: 7px 11px;
+  }
+  div.icon-holder {
+    // border: 2px solid #fff;
+    border-radius: 50%;
+    background: #000;
+    width: 40px;
+    height: 40px;
+    i {
+      padding: 12px;
+    }
+    transition: transform 0.5s ease;
+    svg {
+      fill: #fff;
+    }
+    &:hover {
+      transform: translate(0px, -8px);
+    }
+    a {
+      color: #fff;
+    }
+  }
+}

@@ -1,0 +1,48 @@
+/* more about us section */
+section.more-about-us-section {
+  // background-color: #fffdfc;
+  margin: 120px 0;
+  img{
+    width: 100px;
+    margin-bottom: 20px;
+    color: #ddd;
+  }
+  h3.main-section-heading {
+    margin-bottom: 50px;
+    text-transform: capitalize;
+    font-weight: bolder;
+    font-size: 35px;
+   
+  }
+  
+  @media (max-width:768px) {
+    h3.main-section-heading {
+      font-size: 24px;
+      @media (max-width: 480px) {
+        font-size: 28px;
+        }
+    }
+
+  }
+  .circle-img {
+    // margin-bottom: 33px;
+  }
+  h4 {
+    margin-bottom: 15px;
+    color: #fff;
+  }
+  div.col-md-3 {
+    &:nth-child(2) {
+      // margin: 0 87px 0 87px;
+      @media (min-width: 768px) {
+        // margin: 0 25px 0 25px;
+      }
+      @media (min-width: 768px) {
+      }
+    }
+  }
+  p {
+    max-width: 300px;
+    color: #d3d3d3;
+  }
+}

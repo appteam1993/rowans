@@ -1,0 +1,102 @@
+section.about-us {
+  // padding: 60px 0;
+  margin: 40px 0;
+  background-color: #222;
+
+  div.section-heading-div {
+    h3 {
+      font-weight: bold;
+      font-size: 32px;
+      line-height: 48px;
+      text-align: left;
+      margin-bottom: 10px;
+      text-transform: capitalize;
+      color: #222;
+      @media (max-width: 480px) {
+        font-size: 30px;
+      }
+    }
+  }
+
+  div.about-us-content {
+    div.shop-name-secoundry {
+      h4 {
+        font-family: Quicksand-bold;
+        font-size: 24px;
+        line-height: 36px;
+        color: #252525;
+        margin-bottom: 24px;
+        font-weight: bolder;
+      }
+    }
+
+    div.shop-about-text {
+      p {
+        font-size: 18px;
+        line-height: 27px;
+        letter-spacing: -0.02em;
+      }
+    }
+
+    div.read-more-btn {
+      background-color: #fbb400;
+      a {
+        background-color: $main-color;
+        color: #222;
+        border-radius: 2px !important;
+        padding-top: 12px;
+        width: 210px;
+        height: 50px;
+        margin-top: 20px;
+        transition: all 0.5s ease;
+
+        &:hover {
+          color: #222;
+          border-color: $main-color;
+          background-color: $main-color;
+          box-shadow: $main-color-tranparent 0px 4px 12px;
+          transform: scale(0.9);
+        }
+
+        @media (min-width: 992px) {
+          margin-top: 62px;
+        }
+      }
+    }
+  }
+  img {
+    width: 100%;
+  }
+  .col-12 {
+    padding: 0;
+  }
+  .col-md-6 {
+    padding: 0;
+  }
+}
+.read-more-btn1 {
+  a {
+    background-color: #222;
+    color: $main-color;
+    display: inline-block;
+    padding: 12px;
+    margin-top: 20px;
+    border: 2px solid $main-color;
+
+    // transition: all 0.5s ease;
+    text-decoration: none;
+    .fa {
+      color: $main-color;
+    }
+    &:hover {
+      background-color: transparent;
+      border: 2px solid #222;
+      color: #222;
+      i{
+        color: #222;
+      }
+    }
+  }
+}
+
+

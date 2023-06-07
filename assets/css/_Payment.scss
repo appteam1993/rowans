@@ -1,0 +1,18 @@
+section.peyment-method {
+  background-color: #fff;
+  div.row {
+    padding: 50px 0;
+    div.col-10 {
+      .methods-container {
+        justify-content: space-evenly;
+        >div{
+
+          img {
+            width: 70px;
+            display: block;
+          }
+        }
+      }
+    }
+  }
+}

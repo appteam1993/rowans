@@ -1,0 +1,323 @@
+/* footer */
+
+footer {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  padding: 0;
+  details{
+    summary{
+      line-height: 38px;
+    }
+    a{
+      color: #444;
+    font-size: 14px;
+    &:hover{
+color: #fff;
+text-decoration: none;
+    }
+    }
+  }
+ 
+    
+  }
+  
+  .address-first {
+    display: inline-block;
+    margin: 40px 0;
+    text-align: center;
+    width: 300px;
+    h2 {
+      color: #e53d2c;
+      font-family: pacifico;
+      font-size: 70px;
+      margin-bottom: 7px;
+    }
+
+    h3 {
+      font-family: Quicksand;
+      font-size: 25px;
+      font-weight: bolder;
+      text-transform: capitalize;
+    }
+
+    b {
+      font-family: Quicksand;
+    }
+
+  }
+
+  .address-second {
+    display: inline-block;
+    margin: 40px 0;
+    text-align: center;
+    width: 300px;
+    h2 {
+      color: #e53d2c;
+      font-family: Quicksand;
+      font-size: 70px;
+      margin-bottom: 7px;
+    }
+
+    h3 {
+      font-family: Quicksand;
+      font-size: 25px;
+      font-weight: bolder;
+    }
+
+    b {
+      font-family: Quicksand;
+    }
+  }
+
+  a.d-flex {
+    img.shop-logo {
+      max-width: 242px;
+      max-height: 50px;
+    }
+  }
+
+  .footer-header {
+    font-size: 38px;
+    text-transform: capitalize;
+    font-weight: bolder;
+    color: $main-color;
+
+    @media (max-width:480px) {
+      font-size: 35px;
+    }
+  }
+
+  .fa {
+    // color: $main-color;
+    font-size: 1.25rem;
+  }
+
+  .list-group.shop-info {
+    display: flex;
+    flex-direction: row;
+
+    @media (max-width:768px) {
+      flex-direction: column;
+    }
+
+    div {
+      margin: 0 auto;
+    }
+  }
+
+  .footer-title {
+    margin-bottom: 30px;
+
+    span {
+      font-weight: 500;
+      font-size: 22px;
+      line-height: 27px;
+      color: #ffffff;
+    }
+  }
+
+  img.dl-app-link {
+    margin-bottom: 20px;
+    width: 170px;
+
+    @media (min-width: 768px) {
+
+      width: 180px;
+    }
+  }
+
+  h3 {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  .footer-content{
+    flex-direction: row;
+    @media (max-width: 768px) {
+      flex-direction: column;
+      text-align: center;
+    }
+    
+    ul{
+      margin-bottom: 50px;
+      h5{
+        margin-bottom: 25px;
+      }
+      li{
+        list-style: none;
+        a{
+          color: #333;
+          line-height: 38px;
+          &:hover{
+            text-decoration: none;
+            color: #fff
+          }
+        }
+      }
+    }
+  }
+
+.fa{
+  color: #000
+}
+
+section.foods-link{
+  margin: 100px 0;
+
+  ul{
+      padding: 10px;
+      margin: 0;
+      li{
+          list-style: none;
+          display: inline-block;
+          border: 1px solid #ddd;
+          border-radius: 10px;
+          padding: 5px;
+          margin: 4px;
+          
+          a{
+              color: #fff;
+              &:hover{
+                  text-decoration: none;
+
+              }
+          }
+          &:hover{
+          border: 1px solid #fbb400;
+
+          }
+      }
+  }
+}
+section.foods-tags{
+  margin-top: 40px;
+  .foods-link{
+    border-top: 1px solid #ddd;
+    padding-top: 30px;
+  }
+  ul{
+      padding: 10px;
+      li{
+          list-style: none;
+          display: inline-block;
+          // border: 1px solid #ddd;
+          border-radius: 10px;
+          padding: 5px 10px;
+          margin: 4px;
+          background-color: #000;
+          color: #fff;
+          font-size: 12px;
+          a{
+              color: #fff ;
+              &:hover{
+                  text-decoration: none;
+                  color: #fbb400;
+
+              }
+          }
+          &:hover{
+          // border: 1px solid #ed3628;
+
+          }
+      }
+  }
+}
+
+
+
+.contact-us {
+  margin-top: 80px;
+  .address-first {
+    display: inline-block;
+    margin: 40px 0;
+    text-align: center;
+    width: 300px;
+    h2 {
+      color: #e53d2c;
+      font-family: pacifico;
+      font-size: 70px;
+      margin-bottom: 7px;
+    }
+
+    h3 {
+      font-family: Quicksand;
+      font-size: 25px;
+      font-weight: bolder;
+      text-transform: capitalize;
+    }
+
+    b {
+      font-family: Quicksand;
+    }
+
+  }
+
+  .address-second {
+    display: inline-block;
+    margin: 40px 0;
+    text-align: center;
+    width: 300px;
+    h2 {
+      color: #e53d2c;
+      font-family: Quicksand;
+      font-size: 70px;
+      margin-bottom: 7px;
+    }
+
+    h3 {
+      font-family: Quicksand;
+      font-size: 25px;
+      font-weight: bolder;
+    }
+
+    b {
+      font-family: Quicksand;
+    }
+  }
+
+  a.d-flex {
+    img.shop-logo {
+      max-width: 242px;
+      max-height: 50px;
+    }
+  }
+
+  .footer-header {
+    font-size: 38px;
+    text-transform: capitalize;
+    font-weight: bolder;
+    color: $main-color;
+
+    @media (max-width:480px) {
+      font-size: 35px;
+    }
+  }
+  
+  .fa {
+    // color: $main-color;
+    font-size: 1.25rem;
+  }
+
+  .list-group.shop-info {
+    display: flex;
+    flex-direction: row;
+
+    @media (max-width:768px) {
+      flex-direction: column;
+    }
+
+    div {
+      margin: 0 auto;
+    }
+  }
+
+  .footer-title {
+    margin-bottom: 30px;
+
+    span {
+      font-weight: 500;
+      font-size: 22px;
+      line-height: 27px;
+      color: #ffffff;
+    }
+  }
+}

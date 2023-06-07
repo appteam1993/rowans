@@ -1,0 +1,163 @@
+/* section hero */
+section.hero-section {
+  background-color: rgb(255, 255, 255);
+  padding: 80px 0;
+
+  div.inner-content {
+    h2 {
+      font-size: 1.2rem;
+      margin-bottom: 20px;
+      color: rgb(0, 0, 0);
+
+      @media (min-width: 768px) {
+        font-size: 1.5rem;
+      }
+
+      @media (min-width: 992px) {
+        font-size: 2rem;
+      }
+
+      span.ten-off {
+        text-decoration: underline;
+        text-decoration-color: $main-color;
+      }
+    }
+
+    p.hero-main-text {
+      font-size: 0.8rem;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 16px;
+      line-height: 24px;
+      color: #000000;
+
+      @media (min-width: 768px) {
+        font-size: 0.9rem;
+      }
+
+      @media (min-width: 992px) {
+        font-size: 1rem;
+      }
+    }
+
+    a {
+      background-color: $main-color;
+      color: rgb(255, 255, 255);
+      border-radius: 35px 0 35px 0 !important;
+      padding-top: 12px;
+      width: 210px;
+      height: 50px;
+      margin-top: 20px;
+
+      &:hover {
+        color: $main-color;
+        border-color: $main-color;
+        background-color: #fff !important;
+        box-shadow: $main-color-tranparent 0px 4px 12px;
+      }
+
+      @media (min-width: 991px) {
+        margin-top: 62px;
+      }
+
+      @media (max-width: 480px) {
+        width: 140px;
+      }
+
+      .order-now-icon-main {
+        width: 30px;
+        height: 30px;
+        stroke: white;
+
+        &:hover {
+          stroke: $main-color;
+        }
+      }
+    }
+
+    div.clip {
+      clip-path: polygon(0 0, 100% 0, 95% 99%, 5% 100%);
+      border-radius: 30px;
+      overflow: hidden;
+
+      img {
+        background-image: url("../../imgs/hero/Background.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        overflow: hidden;
+
+        @media (min-width: 992px) {
+          border-radius: 109px 109px 109px 109px;
+          padding: 42px;
+        }
+      }
+    }
+  }
+}
+
+#headerpage {
+  display: block;
+  height: 600px;
+  .back-img {
+    background-image: url(../../imgs/traditional-supreme-pizza-black-stone.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 100px;
+    height: 600px;
+    h2 {
+      color: #fff;
+      font-weight: bolder;
+      margin-bottom: 30px;
+      @media (max-width: 768px) {
+        font-size: 1.8rem;
+      }
+    }
+    p {
+      color: #fff;
+      font-weight: bolder;
+      margin-bottom: 30px;
+    }
+    .orderCumbernauld{
+      background-color: #fbb400;
+      border: 2px solid #fbb400;
+      padding: 10px 20px;
+      color: #222;
+      margin: 5px;
+      &:hover {
+        background-color: #222;
+        border: 2px solid #fbb400;
+        color: #fbb400;
+        .fa {
+          color: #fbb400 !important;
+        }
+      }
+    }
+   .orderBudhill{
+    background-color: #222;
+    border: 2px solid #fbb400;
+    padding: 10px 20px;
+    color: #fbb400;
+    margin: 5px;
+    .fa {
+      color: #fbb400 !important;
+    }
+    &:hover {
+      background-color: #fbb400;
+      border: 2px solid #fbb400;
+      color: #222;
+      .fa {
+        color: #222 !important;
+      }
+    }
+   }
+    i {
+      color: #222 !important;
+      margin-left: 5px;
+    }
+    @media (max-width: 480px) {
+      padding: 100px 20px;
+    }
+  }
+}

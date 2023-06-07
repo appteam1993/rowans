@@ -1,0 +1,474 @@
+/* special to try */
+section.special {
+margin-top: 100px;
+ 
+
+  h3 {
+    // margin-top: 100px;
+    margin-bottom: 50px;
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: 800;
+    text-align: center;
+    font-size: 36px;
+
+    @media (max-width:991px) {
+      font-size: 40px;
+    }
+
+    @media (max-width:480px) {
+      font-size: 30px;
+    }
+  }
+
+  ul.nav-tabs {
+    border: none !important;
+    margin-bottom: 40px;
+    width: 100%;
+    justify-content: center;
+    padding: 0px 0 10px 0;
+    margin-bottom: 0 !important;
+
+    .nav-item {
+      margin: 0 5px;
+      
+      border-radius: 15px;
+      a.nav-link {
+        color: #000;
+        font-size: 12px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 1px;
+        padding: 5px 0;
+        background: #fff;
+      border-radius: 15px;
+      width: 180px;
+      box-shadow: 3px 3px 7px #ddd;
+      display: flex;
+    justify-content: center;
+    flex-direction: row;
+        img {
+          width: 30px;
+          margin-right: 5px;
+          @media (max-width:768px) {
+            max-width: 80px;
+          }
+          @media (max-width:480px) {
+            max-width: 60px;
+          }
+        }
+
+        @media (min-width: 425px) {
+          font-size: 1rem;
+          
+        }
+
+        &.active {
+          margin-top: -5px;
+          transform: translateY(-5px);
+          transition-duration: 0.5s;
+          border: none;
+         background-color: #fbb400;
+          border-bottom: 3px solid #000;
+        }
+
+        
+        
+      }
+      
+      &.active{
+        .show{
+          top:100% !important;
+        }
+      }
+    }
+  }
+
+  .swiper-container {
+    padding: 25px;
+  }
+.tab-pane{
+  .col-md-4{
+    margin-bottom: 20px;
+  }
+}
+  // .swiper-button-next {
+  //   background-image: url(../../imgs/special/slideshow-right-arrow.png);
+  // }
+
+  // .swiper-button-next::after {
+  //   content: "";
+  // }
+
+  // .swiper-button-prev {
+  //   transform: rotate(180deg);
+  //   background-image: url(../../imgs/special/slideshow-right-arrow.png);
+  // }
+
+  // .swiper-button-prev::after {
+  //   content: "";
+  // }
+
+
+  .card {
+
+    background-color: #ffffff;
+    // border-radius: 20px;
+    height: 170px;
+    overflow: hidden;
+    border: 1px solid #ddd;
+    
+    img{
+      position: absolute;
+    }
+    .info{
+      
+      opacity: 0.8;
+      height: 200px;
+      transform: translateY(45%) translateY(20px) translateZ(0);
+      transition: transform 0.5s ease-out;
+      color: #fff;
+    }
+    .card-img {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+    }
+    .card-img-top {
+      min-height: 212px;
+      max-height: 212px;
+    }
+   
+      
+    &:hover {
+      // border-bottom: 3px solid $main-color;
+      .info{
+        transform: translateY(0px) translateZ(0);
+        background-color: $main-color;
+        color: #222;
+        .h5{
+          color: #222;
+        }
+        .card-title{
+          color: #222;
+        }
+      }
+      .card-footer {
+
+        a {
+          // background-color: $main-color;
+          // border: 1px solid $main-color;
+          color: $main-color;
+         
+        }
+      }
+    }
+    
+
+    .card-body {
+      padding: 10px;
+      min-height: 100px;
+
+      .card-title {
+        color: #fff;
+        text-transform: capitalize;
+        font-size: 19px;
+        font-weight: bolder;
+        text-align: left;
+       
+        margin-bottom: 0px;
+      }
+      p{
+        text-align: left !important;
+
+      }
+
+      p {
+        text-align: center;
+      }
+    }
+
+
+    .card-footer {
+      // background-color: #ffffff;
+      border-top: none;
+      display: flex;
+      justify-content: center;
+      padding: 20px 0 30px 0;
+
+      a {
+        background-color: #222;
+        border: 1px solid $main-color;
+        color: $main-color;
+        border-radius: 6px;
+
+        &:hover {
+          background-color: #fff;
+          border: 1px solid $main-color;
+          color: $main-color;
+        }
+      }
+
+    }
+  }
+.card1{
+  background-image: url(../../imgs/special/Scottish-Full-Breakfast-Rowans-Deli.jpg);
+}
+.card2{
+  background-image: url(../../imgs/special/100Crispy-Chicken-Burger-Rowans-Deli.jpg);
+}
+.card3{
+  background-image: url(../../imgs/special/Gammon-Roll-Rowans-Deli.jpg);
+}
+.card4{
+  background-image: url(../../imgs/special/Roast-Beef-Baguette-Rowans-Deli.jpg);
+}
+.card5{
+  background-image: url(../../imgs/special/Mexican-Chicken-Mayo-Sandwich-Rowans-Deli.jpg);
+}
+.card6{
+  background-image: url(../../imgs/special/Pineapple-Cake-Rowans-Deli.jpg);
+}
+.card7{
+  background-image: url(../../imgs/special/Gut-Buster-Breakfast-Rowans-Deli.jpg);
+}
+.card8{
+  background-image: url(../../imgs/special/Vegan-Burger-100-Plant-Based-Rowans-Deli.jpg);
+}
+.card9{
+  background-image: url(../../imgs/special/Shredded-Gammon-Rowans-Deli.jpg);
+}
+.card10{
+  background-image: url(../../imgs/special/Roast-Pork100–Roll-Rowans-Deli.jpg);
+}
+.card11{
+  background-image: url(../../imgs/special/Piri-Piri-Chicken-Toasties-Rowans-Deli.jpg);
+}
+.card12{
+  background-image: url(../../imgs/special/Large-Strawberry-Tart-Rowans-Deli.jpg);
+}
+
+
+
+  @media (max-width: 768px) {
+    .card{
+      // height: 140px;
+      .card-body{
+        padding-bottom: 0;
+      }
+      .card-footer{
+        padding-top: 0;
+      }
+      
+    }
+    
+  }
+  
+  div.tab-content {
+    min-height: 450px;
+    div.row {
+      div.food-card {
+        margin-bottom: 25px;
+
+        @media (min-width: 768px) {
+          margin-bottom: 0;
+        }
+
+        img {
+          border-radius: 30px 12px 30px 30px;
+        }
+
+        div.food-name {
+          margin-top: 21px;
+          font-family: Monsterrat, Poppins;
+          font-size: 22px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 28px;
+          letter-spacing: 0em;
+          text-align: center;
+        }
+
+        div.food-comment {
+          margin-top: 10px;
+          font-family: Monsterrat;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 20px;
+          letter-spacing: 0em;
+          text-align: center;
+        }
+      }
+    }
+  }
+}
+
+.SpecialOffer {
+  background-image: url('../../imgs/Rowans-Deli-Parallax.jpg');
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 0;
+  min-height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+h2{
+  color: #fff;
+  display: block;
+  font-weight: bolder;
+  margin-bottom: 25px;
+}
+
+.orderCumbernauld{
+  background-color: #fbb400;
+  color: #222;
+  display: inline-block;
+  padding: 12px;
+  margin-top: 20px;
+  text-decoration: none;
+  border: 2px solid #fbb400;
+  .fa{
+    color: #222 !important;
+  }
+  &:hover{
+    background-color: transparent;
+    color: #fbb400;
+    border: 2px solid #fbb400;
+    .fa{
+      color: #fbb400 !important;
+    }
+  }
+}
+.orderBudhill{
+  background-color: transparent;
+  color: #fbb400;
+  display: inline-block;
+  padding: 12px;
+  margin-top: 20px;
+  text-decoration: none;
+  border: 2px solid #fbb400;
+  .fa{
+    color: #fbb400 !important;
+  }
+  &:hover{
+    background-color: #fbb400;
+    color: #222;
+    border: 2px solid #fbb400;
+    .fa{
+      color: #222 !important;
+    }
+  }
+}
+  @media (max-width:576px) {
+    min-height: 400px;
+  }
+
+  @media (max-width:380px) {
+    min-height: 300px;
+  }
+
+  img {
+    @media (max-width:991px) {
+      max-width: 500px;
+    }
+
+    @media (max-width:576px) {
+      max-width: 350px;
+    }
+
+    @media (max-width:480px) {
+      max-width: 300px;
+    }
+
+    @media (max-width:380px) {
+      max-width: 200px;
+    }
+  }
+
+}
+.header-tab{
+  margin-top: -100px;
+  
+    display: flex;
+    // flex-direction: row;
+    // padding: 0;
+    li{
+      list-style: none;
+      
+    }
+    .item{
+      &:hover{
+        background-color: #fde1c7;
+        transform: scale3d(1.02, 1.02, 1.02);
+        transition-duration: 0.5s;
+      }
+    }
+    @media (max-width:768px) {
+      .item-block{
+        padding: 0;
+      }
+    }
+    div.item{
+      border: 1px solid #ddd;
+      background-color: #fff;
+      // height: 200px;
+      border-radius: 5px;
+      height: 100%;
+      max-width: 180px;
+      
+      a{
+        display: block;
+        text-align: center;
+        height: 170px;
+    padding: 20px 10px;
+      }
+      @media (max-width:768px) {
+
+        a{
+          height: unset
+        }
+        
+      }
+      img{
+        width: 40%;
+      }
+      h4{
+        color: #000;
+        margin-top: 15px;
+        font-size: 20px;
+      }
+      }
+
+      
+    
+    @media (max-width: 768px) {
+      li{
+        width: 49%;
+        display: inline-block;
+        padding: 0;
+        
+      }
+      div.item{
+        margin: 10px
+      }
+    }
+  }
+
+  #lottie{
+    // background-color:#222;
+    width:100px;
+    height:100px;
+    display:inline-block;
+    // overflow: hidden;
+    transform: translate3d(0,0,0);
+    text-align: center;
+    opacity: 1;
+    margin-right: 20px;
+}

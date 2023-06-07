@@ -1,0 +1,132 @@
+section.deals {
+  margin: 40px 0;
+  background-color: #222;
+
+  div.section-heading-div {
+    h3 {
+      font-weight: bold;
+      font-size: 32px;
+      line-height: 48px;
+      text-align: left;
+      margin-bottom: 10px;
+      text-transform: capitalize;
+      color: #222;
+      @media (max-width: 480px) {
+        font-size: 30px;
+      }
+    }
+    p {
+      color: #222;
+    }
+  }
+
+  div.deals-content {
+    div.shop-name-secoundry {
+      h4 {
+        font-family: Quicksand-bold;
+        font-size: 24px;
+        line-height: 36px;
+        color: #252525;
+        margin-bottom: 24px;
+        font-weight: bolder;
+      }
+    }
+
+    div.shop-about-text {
+      p {
+        font-size: 18px;
+        line-height: 27px;
+        letter-spacing: -0.02em;
+      }
+    }
+
+    div.read-more-btn {
+      // background-color: #fce1c7;
+      a.deals {
+        background-color: #fce1c7;
+
+        color: #222;
+        border-radius: 2px !important;
+        padding-top: 12px;
+        width: 210px;
+        height: 50px;
+        margin-top: 20px;
+        transition: all 0.5s ease;
+
+        &:hover {
+          color: #222;
+          border-color: $main-color;
+          background-color: $main-color;
+          box-shadow: $main-color-tranparent 0px 4px 12px;
+          transform: scale(0.9);
+        }
+
+        @media (min-width: 992px) {
+          margin-top: 62px;
+        }
+      }
+    }
+  }
+  img {
+    width: 100%;
+  }
+  .col-12 {
+    padding: 0;
+  }
+  .col-md-6 {
+    padding: 0;
+  }
+}
+
+section.contact-us {
+  .fa{
+    color: #fbb400;
+  }
+  .map {
+    div {
+      height: 100%;
+    }
+  }
+  @media (max-width: 768px) {
+    .section-heading-div {
+      width: 100%;
+      padding: 0;
+      margin: 0;
+      flex-direction: column;
+    }
+    .map {
+      width: 100%;
+
+      padding: 0;
+      margin: 0;
+
+      iframe {
+        height: 300px;
+      }
+    }
+  }
+}
+.fa {
+  color: #222;
+}
+.read-more-btn2 {
+  a.deals {
+    background-color: #fce1c7;
+    color: #222;
+    border-radius: 0;
+    // display: inline-block;
+    padding: 12px;
+    margin-top: 20px;
+    border: 2px solid #fbb400;
+
+    // transition: all 0.5s ease;
+    &:hover {
+      background: #fbb400;
+      color: #222;
+      border: 2px solid #fce1c7;
+      .fa {
+        color: #222;
+      }
+    }
+  }
+}

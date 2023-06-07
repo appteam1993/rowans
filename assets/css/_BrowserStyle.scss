@@ -1,0 +1,22 @@
+
+/* Customize  Color Of Selection  */
+
+::selection {
+    background-color: $main-color;
+    color: white;
+  }
+  ::-moz-selection {
+    background-color: $main-color;
+    color: white;
+  }
+
+
+/* Customize  Scrollbar  */
+
+  ::-webkit-scrollbar {
+    width: 12px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: $main-color;
+    border-radius: 10px;
+  }
